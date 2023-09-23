@@ -1,16 +1,23 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+from GradiniteMiniProiect.ClaseGradinita.GradinitaPrivata import GradinitaPrivata
+from GradiniteMiniProiect.ClaseGradinita.GradinitaPublica import GradinitaPublica
+from GradiniteMiniProiect.ClaseGradinita.GradinitaPublica25 import GradinitaPublica25
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    gradinita_privata1 = GradinitaPrivata()
+    gradinita_privata1.activitate_practica()
+    gradinita_privata1.ora_de_somn()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    gradinita_publica = GradinitaPublica()
+    gradinita_publica.activitate_practica()
+    gradinita_publica.ora_de_somn()
+
+    gradinita_publica25 = GradinitaPublica25()
+    gradinita_publica25.activitate_practica()
+
+    gradinita_publica25.calcul_buline()
+
+    gradinita_publica25.introd_informatii_elevi()
+
+
+
